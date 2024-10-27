@@ -2,7 +2,7 @@ import { ChevronRight, Trash } from 'lucide-react';
 import PropTypes from 'prop-types';
 function Task(props) {
     return (
-      <h1 className='w-56'>
+      <h1>
         {props.tasks.map((task) => (
           <p key={task.id} className='flex gap-2 p-1'>
             <button 
